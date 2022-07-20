@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Choosing a random wallpaper"
+#wall=$(find $HOME/pix/wall -type f | shuf -n 1)
+wall=$HOME/pix/wall/bg.jpg
+xwallpaper --zoom $wall
+wal -i $wall >/dev/null
+sed -i 'N;$!P;D' $HOME/.cache/wal/colors-wal-dwm.h
+(cd $HOME/dwm && sudo make clean install>/dev/null)

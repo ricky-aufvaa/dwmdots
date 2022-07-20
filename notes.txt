@@ -1,0 +1,23 @@
+#adding windows 10 in grub
+cd /etc/grub.d/
+gedit 40_custom
+# add following lines in 40_custom file:
+
+menuentry "Windows 10" {
+   set root='(hd0,1)' 
+   chainloader +1
+} 
+# after edit save file and run following command :
+grub2-mkconfig -o /boot/grub2/grub.cfg 
+
+#customizing grub
+you can download grub themes from the internet for this
+
+#setup dwmstatus bar
+	download dwmbocks
+	check out mr smith for that
+
+#use sxhkd
+
+#get dmenu working 
+locale-gen problem
