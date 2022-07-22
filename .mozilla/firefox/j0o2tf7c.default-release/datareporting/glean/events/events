@@ -1,0 +1,4 @@
+{"timestamp":958705,"category":"perf","name":"page_load","extra":{"fcp_time":"2454","response_time":"279","load_time":"3062","js_exec_time":"1810","load_type":"NORMAL"}}
+{"timestamp":1056185,"category":"perf","name":"page_load","extra":{"response_time":"313","js_exec_time":"68","fcp_time":"455","load_type":"NORMAL","load_time":"956"}}
+{"timestamp":1061898,"category":"perf","name":"page_load","extra":{"fcp_time":"2142","load_type":"STOP","response_time":"1167","load_time":"2239","js_exec_time":"0"}}
+{"timestamp":1074150,"category":"perf","name":"page_load","extra":{"load_type":"LINK","js_exec_time":"0","response_time":"181","load_time":"230","fcp_time":"0"}}

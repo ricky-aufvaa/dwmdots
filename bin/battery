@@ -1,37 +1,42 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-# Prints all batteries, their percentage remaining and an emoji corresponding
-# to charge status (🔌 for plugged up, 🔋 for discharging on battery, etc.).
+# Change this depending on your battery in /sys/class/power_supply/
+battery="BAT0";
 
-case $BLOCK_BUTTON in
-	3) notify-send "🔋 Battery module" "🔋: discharging
-🛑: not charging
-♻: stagnant charge
-🔌: charging
-⚡: charged
-❗: battery very low!
-- Scroll to change adjust xbacklight." ;;
-	4) light -A 10 ;;
-	5) light -U 10 ;;
-	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
-esac
+has_battery() {
+	    if [ -d /sys/class/power_supply/$battery ]; then
+		            return 0;
+			        fi
+				    return 1;
+			    }
+			    get_battery_status() {
+				        charge="$(get_charge)"
+					    echo ""$icon" "$charge"%"
+				    }
 
-# Loop through all attached batteries and format the info
-for battery in /sys/class/power_supply/BAT?*; do
-	# If non-first battery, print a space separator.
-	[ -n "${capacity+x}" ] && printf " "
-	# Sets up the status and capacity
-	case "$(cat "$battery/status" 2>&1)" in
-		"Full") status="⚡" ;;
-		"Discharging") status="dis" ;;
-		"Charging") status="🔌" ;;
-		"Not charging") status="🛑" ;;
-		"Unknown") status="♻️" ;;
-		*) exit 1 ;;
-	esac
-	capacity="$(cat "$battery/capacity" 2>&1)"
-	# Will make a warn variable if discharging and low
-	[ "$status" = "dis" ] && [ "$capacity" -le 25 ] && warn="❗"
-	# Prints the info
-	printf "%s%s%d%%" "$status" "$warn" "$capacity"; unset warn
-done && printf "\\n"
+				    get_charging_status() {
+					        cat "/sys/class/power_supply/$battery/status"
+					}
+
+					get_charge() {
+						    cat "/sys/class/power_supply/$battery/capacity"
+					    }
+
+					    get_datetime() {
+						        date +"📅 %a %d %b %Y | 🕓 %I:%M %p %Z"
+						}
+
+						get_status() {
+							    battery_status="";
+							        if $(has_battery); then
+									        battery_status=" $(get_battery_status) |";
+										    fi
+
+										        echo "${battery_status} $(get_datetime)";
+										}
+
+										while true
+										do
+											    xsetroot -name "$(get_status)";
+											        sleep 1m;
+											done

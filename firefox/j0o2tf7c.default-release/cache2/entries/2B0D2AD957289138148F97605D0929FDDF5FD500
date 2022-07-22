@@ -1,0 +1,609 @@
+{
+  "regionList": [
+    {
+      "name": "Americas",
+      "key": "am",
+      "countryList": [
+        {
+          "name": "Anguilla",
+          "locale": [["en-ai", "English"]]
+        },
+        {
+          "name": "Antigua and Barbuda",
+          "locale": [["en-ag", "English"]]
+        },
+        {
+          "name": "Argentina",
+          "locale": [["es-ar", "Spanish (Español)"]]
+        },
+        {
+          "name": "Aruba",
+          "locale": [["en-aw", "English"]]
+        },
+        {
+          "name": "Bahamas",
+          "locale": [["en-bs", "English"]]
+        },
+        {
+          "name": "Barbados",
+          "locale": [["en-bb", "English"]]
+        },
+        {
+          "name": "Bermuda",
+          "locale": [["en-bm", "English"]]
+        },
+        {
+          "name": "Bolivia",
+          "locale": [["es-bo", "Spanish (Español)"]]
+        },
+        {
+          "name": "Brazil (Brasil)",
+          "locale": [["pt-br", "Portuguese (Português)"]]
+        },
+        {
+          "name": "Canada",
+          "locale": [["en-ca", "English"]]
+        },
+        {
+          "name": "Canada",
+          "locale": [["fr-ca", "French (Français)"]]
+        },
+        {
+          "name": "Cayman Islands",
+          "locale": [["en-ky", "English"]]
+        },
+        {
+          "name": "Chile",
+          "locale": [["es-cl", "Spanish (Español)"]]
+        },
+        {
+          "name": "Colombia",
+          "locale": [["es-co", "Spanish (Español)"]]
+        },
+        {
+          "name": "Costa Rica",
+          "locale": [["es-cr", "Spanish (Español)"]]
+        },
+        {
+          "name": "Curacao",
+          "locale": [["en-cw", "English"]]
+        },
+        {
+          "name": "Dominica",
+          "locale": [["en-dm", "English"]]
+        },
+        {
+          "name": "Ecuador",
+          "locale": [["es-ec", "Spanish (Español)"]]
+        },
+        {
+          "name": "Grenada",
+          "locale": [["en-gd", "English"]]
+        },
+        {
+          "name": "Guyana",
+          "locale": [["en-gy", "English"]]
+        },
+        {
+          "name": "Jamaica",
+          "locale": [["en-jm", "English"]]
+        },
+        {
+          "name": "Mexico",
+          "locale": [["es-mx", "Spanish (Español)"]]
+        },
+        {
+          "name": "Montserrat",
+          "locale": [["en-ms", "English"]]
+        },
+        {
+          "name": "Paraguay",
+          "locale": [["es-py", "Spanish (Español)"]]
+        },
+        {
+          "name": "Peru",
+          "locale": [["es-pe", "Spanish (Español)"]]
+        },
+        {
+          "name": "Saint Kitts and Nevis",
+          "locale": [["en-kn", "English"]]
+        },
+        {
+          "name": "Saint Lucia",
+          "locale": [["en-lc", "English"]]
+        },
+        {
+          "name": "Saint Vincent and the Grenadines",
+          "locale": [["en-vc", "English"]]
+        },
+        {
+          "name": "Suriname",
+          "locale": [["en-sr", "English"]]
+        },
+        {
+          "name": "Trinidad and Tobago",
+          "locale": [["en-tt", "English"]]
+        },
+        {
+          "name": "Turks and Caicos Islands",
+          "locale": [["en-tc", "English"]]
+        },
+        {
+          "name": "United States",
+          "locale": [["en-us", "English"]]
+        },
+        {
+          "name": "Uruguay",
+          "locale": [["es-uy", "Spanish (Español)"]]
+        },
+        {
+          "name": "Venezuela",
+          "locale": [["es-ve", "Spanish (Español)"]]
+        },
+        {
+          "name": "Virgin Islands, British",
+          "locale": [["en-vg", "English"]]
+        }
+      ]
+    },
+    {
+      "name": "Asia Pacific",
+      "key": "ap",
+      "countryList": [
+        {
+          "name": "Australia",
+          "locale": [["en-au", "English"]]
+        },
+        {
+          "name": "Bangladesh",
+          "locale": [["en-bd", "English"]]
+        },
+        {
+          "name": "Brunei Darussalam",
+          "locale": [["en-bn", "English"]]
+        },
+        {
+          "name": "Cambodia",
+          "locale": [["en-kh", "English"]]
+        },
+        {
+          "name": "China (中国)",
+          "locale": [["zh-cn", "Chinese (简体中文)"]]
+        },
+        {
+          "name": "Hong Kong S.A.R. of China",
+          "locale": [["en-hk", "English"]]
+        },
+        {
+          "name": "India",
+          "locale": [["en-in", "English"]]
+        },
+        {
+          "name": "Indonesia",
+          "locale": [["en-id", "English"]]
+        },
+        {
+          "name": "Japan (日本)",
+          "locale": [["ja-jp", "Japanese (日本語)"]]
+        },
+        {
+          "name": "Korea, Republic of (대한민국)",
+          "locale": [["ko-kr", "Korean (한국어)"]]
+        },
+        {
+          "name": "Malaysia",
+          "locale": [["en-my", "English"]]
+        },
+        {
+          "name": "Nepal",
+          "locale": [["en-np", "English"]]
+        },
+        {
+          "name": "New Zealand",
+          "locale": [["en-nz", "English"]]
+        },
+        {
+          "name": "Philippines",
+          "locale": [["en-ph", "English"]]
+        },
+        {
+          "name": "Singapore",
+          "locale": [["en-sg", "English"]]
+        },
+        {
+          "name": "Sri Lanka",
+          "locale": [["en-lk", "English"]]
+        },
+        {
+          "name": "Taiwan (台灣)",
+          "locale": [["zh-tw", "Chinese (繁體中文)"]]
+        },
+        {
+          "name": "Thailand",
+          "locale": [["en-th", "English"]]
+        },
+        {
+          "name": "Vietnam",
+          "locale": [["en-vn", "English"]]
+        }
+      ]
+    },
+    {
+      "name": "Europe",
+      "key": "eu",
+      "countryList": [
+        {
+          "name": "Austria (Österreich)",
+          "locale": [["de-at", "German (Deutsch)"]]
+        },
+        {
+          "name": "Belgium/Luxembourg",
+          "locale": [["en-be", "English"]]
+        },
+        {
+          "name": "Bulgaria",
+          "locale": [["en-bg", "English"]]
+        },
+        {
+          "name": "Croatia",
+          "locale": [["en-hr", "English"]]
+        },
+        {
+          "name": "Cyprus",
+          "locale": [["en-cy", "English"]]
+        },
+        {
+          "name": "Czech Republic",
+          "locale": [["en-cz", "English"]]
+        },
+        {
+          "name": "Denmark",
+          "locale": [["en-dk", "English"]]
+        },
+        {
+          "name": "Estonia",
+          "locale": [["en-ee", "English"]]
+        },
+        {
+          "name": "Finland",
+          "locale": [["en-fi", "English"]]
+        },
+        {
+          "name": "France",
+          "locale": [["fr-fr", "French (Français)"]]
+        },
+        {
+          "name": "Germany (Deutschland)",
+          "locale": [["de-de", "German (Deutsch)"]]
+        },
+        {
+          "name": "Greece",
+          "locale": [["en-gr", "English"]]
+        },
+        {
+          "name": "Hungary",
+          "locale": [["en-hu", "English"]]
+        },
+        {
+          "name": "Ireland",
+          "locale": [["en-ie", "English"]]
+        },
+        {
+          "name": "Italy (Italia)",
+          "locale": [["it-it", "Italian (Italiano)"]]
+        },
+        {
+          "name": "Kazakhstan",
+          "locale": [["en-kz", "English"]]
+        },
+        {
+          "name": "Latvia",
+          "locale": [["en-lv", "English"]]
+        },
+        {
+          "name": "Lithuania",
+          "locale": [["en-lt", "English"]]
+        },
+        {
+          "name": "Netherlands",
+          "locale": [["en-nl", "English"]]
+        },
+        {
+          "name": "Norway",
+          "locale": [["en-no", "English"]]
+        },
+        {
+          "name": "Poland (Polska)",
+          "locale": [["pl-pl", "Polish (Polskie)"]]
+        },
+        {
+          "name": "Portugal",
+          "locale": [["en-pt", "English"]]
+        },
+        {
+          "name": "Romania",
+          "locale": [["en-ro", "English"]]
+        },
+        {
+          "name": "Russian (Россия)",
+          "locale": [["ru-ru", "Russian (русский)"]]
+        },
+        {
+          "name": "Serbia",
+          "locale": [["en-rs", "English"]]
+        },
+        {
+          "name": "Slovakia",
+          "locale": [["en-sk", "English"]]
+        },
+        {
+          "name": "Slovenia",
+          "locale": [["en-si", "English"]]
+        },
+        {
+          "name": "Spain (España)",
+          "locale": [["es-es", "Spanish (Español)"]]
+        },
+        {
+          "name": "Sweden",
+          "locale": [["en-se", "English"]]
+        },
+        {
+          "name": "Switzerland (Suisse)",
+          "locale": [["fr-ch", "French (Français)"]]
+        },
+        {
+          "name": "Switzerland (Schweiz)",
+          "locale": [["de-ch", "German (Deutsch)"]]
+        },
+        {
+          "name": "Turkey (Türkiye)",
+          "locale": [["tr-tr", "Turkish (Türk)"]]
+        },
+        {
+          "name": "Ukraine",
+          "locale": [["en-ua", "English"]]
+        },
+        {
+          "name": "United Kingdom",
+          "locale": [["en-uk", "English"]]
+        },
+        {
+          "name": "United Kingdom",
+          "locale": [["en-gb", "English"]]
+        },
+        {
+          "name": "Uzbekistan",
+          "locale": [["en-uz", "English"]]
+        }
+      ]
+    },
+    {
+      "name": "Middle East and Africa",
+      "key": "mea",
+      "countryList": [
+        {
+          "name": "Afghanistan",
+          "locale": [["en-af", "English"]]
+        },
+        {
+          "name": "Algeria (Algérie)",
+          "locale": [["fr-dz", "French (Français)"]]
+        },
+        {
+          "name": "Angola",
+          "locale": [["pt-ao", "Portuguese (Português)"]]
+        },
+        {
+          "name": "Bahrain",
+          "locale": [["en-bh", "English"]]
+        },
+        {
+          "name": "Botswana",
+          "locale": [["en-bw", "English"]]
+        },
+        {
+          "name": "Burkina Faso",
+          "locale": [["fr-bf", "French (Français)"]]
+        },
+        {
+          "name": "Cameroon (Cameroun)",
+          "locale": [["fr-cm", "French (Français)"]]
+        },
+        {
+          "name": "Chad (Tchad)",
+          "locale": [["fr-td", "French (Français)"]]
+        },
+        {
+          "name": "Congo",
+          "locale": [["fr-cg", "French (Français)"]]
+        },
+        {
+          "name": "Congo, Democratic Republic of (République Démocratique du Congo)",
+          "locale": [["fr-cd", "French (Français)"]]
+        },
+        {
+          "name": "Egypt",
+          "locale": [["en-eg", "English"]]
+        },
+        {
+          "name": "Ethiopia",
+          "locale": [["en-et", "English"]]
+        },
+        {
+          "name": "Gabon",
+          "locale": [["fr-ga", "French (Français)"]]
+        },
+        {
+          "name": "Ghana",
+          "locale": [["en-gh", "English"]]
+        },
+        {
+          "name": "Iraq",
+          "locale": [["en-iq", "English"]]
+        },
+        {
+          "name": "Israel",
+          "locale": [["en-il", "English"]]
+        },
+        {
+          "name": "Ivory Coast (Côte d'Ivoire)",
+          "locale": [["fr-ci", "French (Français)"]]
+        },
+        {
+          "name": "Jordan",
+          "locale": [["en-jo", "English"]]
+        },
+        {
+          "name": "Kenya",
+          "locale": [["en-ke", "English"]]
+        },
+        {
+          "name": "Kuwait",
+          "locale": [["en-kw", "English"]]
+        },
+        {
+          "name": "Lebanon",
+          "locale": [["en-lb", "English"]]
+        },
+        {
+          "name": "Libya",
+          "locale": [["en-ly", "English"]]
+        },
+        {
+          "name": "Madagascar",
+          "locale": [["fr-mg", "French (Français)"]]
+        },
+        {
+          "name": "Malawi",
+          "locale": [["en-mw", "English"]]
+        },
+        {
+          "name": "Mauritius (Maurice)",
+          "locale": [["fr-mu", "French (Français)"]]
+        },
+        {
+          "name": "Morocco (Maroc)",
+          "locale": [["fr-ma", "French (Français)"]]
+        },
+        {
+          "name": "Mozambique",
+          "locale": [["pt-mz", "Portuguese (Português)"]]
+        },
+        {
+          "name": "Namibia",
+          "locale": [["en-na", "English"]]
+        },
+        {
+          "name": "Niger",
+          "locale": [["fr-ne", "French (Français)"]]
+        },
+        {
+          "name": "Nigeria",
+          "locale": [["en-ng", "English"]]
+        },
+        {
+          "name": "Oman",
+          "locale": [["en-om", "English"]]
+        },
+        {
+          "name": "Pakistan",
+          "locale": [["en-pk", "English"]]
+        },
+        {
+          "name": "Qatar",
+          "locale": [["en-qa", "English"]]
+        },
+        {
+          "name": "Saudi Arabia",
+          "locale": [["en-sa", "English"]]
+        },
+        {
+          "name": "Saudi Arabia (المملكة العربية السعودية)",
+          "locale": [["ar-sa", "Arabic (عربى)"]]
+        },
+        {
+          "name": "Senegal (Sénégal)",
+          "locale": [["fr-sn", "French (Français)"]]
+        },
+        {
+          "name": "Seychelles",
+          "locale": [["fr-sc", "French (Français)"]]
+        },
+        {
+          "name": "Sierra Leone",
+          "locale": [["en-sl", "English"]]
+        },
+        {
+          "name": "South Africa",
+          "locale": [["en-za", "English"]]
+        },
+        {
+          "name": "Tanzania, United Republic of",
+          "locale": [["en-tz", "English"]]
+        },
+        {
+          "name": "Tunisia (Tunisie)",
+          "locale": [["fr-tn", "French (Français)"]]
+        },
+        {
+          "name": "Uganda",
+          "locale": [["en-ug", "English"]]
+        },
+        {
+          "name": "United Arab Emirates",
+          "locale": [["en-ae", "English"]]
+        },
+        {
+          "name": "United Arab Emirates (الإمارات العربية المتحدة)",
+          "locale": [["ar-ae", "Arabic (عربى)"]]
+        },
+        {
+          "name": "Yemen",
+          "locale": [["en-ye", "English"]]
+        },
+        {
+          "name": "Zambia",
+          "locale": [["en-zm", "English"]]
+        },
+        {
+          "name": "Zimbabwe",
+          "locale": [["en-zw", "English"]]
+        }
+      ]
+    }
+  ],
+  "localeModal": {
+    "headerTitle": "Select geographic area",
+    "modalClose": "Close modal",
+    "searchLabel": "Search by location or language. Note: Location/Language will be dynamically updated as you provide the input",
+    "searchClearText": "Clear search input",
+    "searchPlaceholder": "Search by location or language",
+    "availabilityText": "This page is available in the following locations and languages",
+    "unavailabilityText": "This page is unavailable in your preferred location or language"
+  }
+}
+�	�G %      b�Rb�RD�0b�RU   {    O^partitionKey=%28https%2Cibm.com%29,a,:https://1.www.s81c.com/common/js/dynamicnav/www/countrylist/jsononly/usen-utf8.json strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEANwFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAm4MIIJtDCCCJygAwIBAgIQDn9eV1EDIkzGk9gVOFeihzANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRHZW9UcnVzdCBSU0EgQ0EgMjAxODAeFw0yMTA5MTMwMDAwMDBaFw0yMjA5MTIyMzU5NTlaMH0xCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhOZXcgWW9yazEPMA0GA1UEBxMGQXJtb25rMTQwMgYDVQQKEytJbnRlcm5hdGlvbmFsIEJ1c2luZXNzIE1hY2hpbmVzIENvcnBvcmF0aW9uMRQwEgYDVQQDEwt3d3cuaWJtLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJyaNg7KhdhGVI6BJyGet5C/0H16c78G0xrw16GWwAQ64ymmXfP3xIxugpqYPRgqP7HlaWru9GIXNMjFZY9gV4/o38dOYDTgRooR8H88JFFbIC3Y9KKETtsEyRhVB9wjri6xQMezLz01Gr0VI4O6avysx2YR9oCDY2eiZ4OyUlJtMVzjAw2+vFUgfHsgnrLjnIW1FVXfEIH5HpH0koEOM/lcRRGdjwIIRGgQ8ezNQ7NEjYNpIkMcrARMVRr1NBDxAFU8ODkHTtuZJ8qeQGL+/sWYdlNr7+UZixmebkKAmW53PX07KH5K5UuFd5YQJXFUghtz+D+Sgf82fFzKjZtmCVkCAwEAAaOCBk0wggZJMB8GA1UdIwQYMBaAFJBY/7CcdahRVHex7fKjQxY4nmzFMB0GA1UdDgQWBBRfGvD8jQZiMryF3jjjPpIlFOgV4DCCA0wGA1UdEQSCA0MwggM/gg93d3d0ZXN0LmlibS5jb22CE3d3d3Rlc3QtMTEyLmlibS5jb22CEHd3d3N0YWdlLmlibS5jb22CDnd3d3BvYy5pYm0uY29tghJ3d3dwb2MtMTEyLmlibS5jb22CFnd3dy5uaWMud2VhdGhlcmNoYW5uZWyCD3d3dy5uaWMud2VhdGhlcoILd3d3Lm5pYy5pYm2CC3d3dy5pYm0uY29tghV3d3cuZGV2ZWxvcGVyLmlibS5jb22CHXd3dy5hdHNzMDAxdWF0LmF0LnNtaS5pYm0uY29tgg93d3ctYXBpLmlibS5jb22CFHd3dy05NjlzdGFnZS5pYm0uY29tgg93d3ctOTY5LmlibS5jb22CD3d3dy05NDYuaWJtLmNvbYIPd3d3LTkzNS5pYm0uY29tgg53d3ctNTAuaWJtLmNvbYIOd3d3LTQwLmlibS5jb22CD3d3dy0zNTYuaWJtLmNvbYIQd3d3LTIwMDAuaWJtLmNvbYIPd3d3LTExMi5pYm0uY29tgg53d3ctMDcuaWJtLmNvbYIOd3d3LTA2LmlibS5jb22CDnd3dy0wNS5pYm0uY29tgg53d3ctMDMuaWJtLmNvbYIOd3d3LTAxLmlibS5jb22CEXVzbXIuY21zLnM4MWMuY29tgg91cy5jbXMuczgxYy5jb22CDW15aWJtLmlibS5jb22CC21wLnM4MWMuY29tggdpYm0uY29tgg9ldS5jbXMuczgxYy5jb22CEWRldmVsb3Blci5pYm0uY29tghljZG4tcHJvZC1lZGl0LmNtcy5pYm0ubmV0ghBhcGkud3d3LnM4MWMuY29tgg9hcC5jbXMuczgxYy5jb22CEzEud3d3c3RhZ2UuczgxYy5jb22CDjEud3d3LnM4MWMuY29tghMxLmRhbXN0YWdlLnM4MWMuY29tgg4xLmRhbS5zODFjLmNvbYISMS5jbXN0ZXN0LnM4MWMuY29tghYxLmNtc3N0YWdlbmV3LnM4MWMuY29tghMxLmNtc3N0YWdlLnM4MWMuY29tghExLmNtc3BvYy5zODFjLmNvbYIRMS5jbXNuZXcuczgxYy5jb22CDjEuY21zLnM4MWMuY29tMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwPgYDVR0fBDcwNTAzoDGgL4YtaHR0cDovL2NkcC5nZW90cnVzdC5jb20vR2VvVHJ1c3RSU0FDQTIwMTguY3JsMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQ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dy05NjlzdGFnZS5pYm0uY29tgg93d3ctOTY5LmlibS5jb22CD3d3dy05NDYuaWJtLmNvbYIPd3d3LTkzNS5pYm0uY29tgg53d3ctNTAuaWJtLmNvbYIOd3d3LTQwLmlibS5jb22CD3d3dy0zNTYuaWJtLmNvbYIQd3d3LTIwMDAuaWJtLmNvbYIPd3d3LTExMi5pYm0uY29tgg53d3ctMDcuaWJtLmNvbYIOd3d3LTA2LmlibS5jb22CDnd3dy0wNS5pYm0uY29tgg53d3ctMDMuaWJtLmNvbYIOd3d3LTAxLmlibS5jb22CEXVzbXIuY21zLnM4MWMuY29tgg91cy5jbXMuczgxYy5jb22CDW15aWJtLmlibS5jb22CC21wLnM4MWMuY29tggdpYm0uY29tgg9ldS5jbXMuczgxYy5jb22CEWRldmVsb3Blci5pYm0uY29tghljZG4tcHJvZC1lZGl0LmNtcy5pYm0ubmV0ghBhcGkud3d3LnM4MWMuY29tgg9hcC5jbXMuczgxYy5jb22CEzEud3d3c3RhZ2UuczgxYy5jb22CDjEud3d3LnM4MWMuY29tghMxLmRhbXN0YWdlLnM4MWMuY29tgg4xLmRhbS5zODFjLmNvbYISMS5jbXN0ZXN0LnM4MWMuY29tghYxLmNtc3N0YWdlbmV3LnM4MWMuY29tghMxLmNtc3N0YWdlLnM4MWMuY29tghExLmNtc3BvYy5zODFjLmNvbYIRMS5jbXNuZXcuczgxYy5jb22CDjEuY21zLnM4MWMuY29tMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwPgYDVR0fBDcwNTAzoDGgL4YtaHR0cDovL2NkcC5nZW90cnVzdC5jb20vR2VvVHJ1c3RSU0FDQTIwMTguY3JsMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzB1BggrBgEFBQcBAQRpMGcwJgYIKwYBBQUHMAGGGmh0dHA6Ly9zdGF0dXMuZ2VvdHJ1c3QuY29tMD0GCCsGAQUFBzAChjFodHRwOi8vY2FjZXJ0cy5nZW90cnVzdC5jb20vR2VvVHJ1c3RSU0FDQTIwMTguY3J0MAwGA1UdEwEB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 request-method GET response-head HTTP/2 200 OK
+last-modified: Fri, 15 Jul 2022 18:25:32 GMT
+etag: "3a01-5e3dc24bc5d53"
+accept-ranges: bytes
+content-length: 14849
+content-type: application/json; charset=utf-8
+cache-control: max-age=79
+expires: Fri, 22 Jul 2022 07:31:35 GMT
+date: Fri, 22 Jul 2022 07:30:16 GMT
+strict-transport-security: max-age=2592000
+access-control-allow-origin: *
+X-Firefox-Spdy: h2
+ original-response-headers last-modified: Fri, 15 Jul 2022 18:25:32 GMT
+etag: "3a01-5e3dc24bc5d53"
+accept-ranges: bytes
+content-length: 14849
+content-type: application/json; charset=utf-8
+cache-control: max-age=79
+expires: Fri, 22 Jul 2022 07:31:35 GMT
+date: Fri, 22 Jul 2022 07:30:16 GMT
+strict-transport-security: max-age=2592000
+access-control-allow-origin: *
+X-Firefox-Spdy: h2
+ ctid 1 net-response-time-onstart 55 net-response-time-onstop 58   :
